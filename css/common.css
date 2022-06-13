@@ -1,0 +1,1103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+body img{position: absolute; z-index: 100;}
+.clear{clear: both;}
+.line{
+    /* border: solid 1px #efefef; */
+    height: 15px;
+    width: 100%;
+    background-color: #efefef;
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+section{width: 1200px;}
+/* 메뉴 */
+#menu{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: white;
+    /* border: solid 1px red; */
+}
+#menu img{margin-top: 20px;}
+#menu ul{
+    float: right;
+    margin-right: -60px;
+}
+#menu li{
+    display: inline;
+    float: left;
+    margin-top: 30px;
+    margin-right: 61px;
+    font-size: 16px;
+    font-family:'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+}
+/* 메인이미지 */
+#banner{
+    width: 100%;
+    height: 738px;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+    background-image: url(../img/Rectangle\ 1.png);
+  
+}
+#source{
+    position: relative;
+    /* border: solid 1px red; */
+    width: 1200px;
+    height: 738px;
+    margin: 0 auto;
+}
+#banner_img{
+    margin: 0 auto;
+    width: 920px;
+    height: 920px;
+    position: absolute;
+    /* border: solid 1px red; */
+    left: 470px;
+    top: -100px;
+    z-index: 10;
+}
+#source #intro{
+    position: absolute;
+    float: left;
+    margin-left: -278px;
+    margin-top: -95px;
+}
+#source #appstore{
+    position: absolute;
+    left: 185px;
+    top: 443.8px;
+}
+#source p{
+    font-size: 18px;
+    font-weight: 530;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 21px;
+    position: absolute;
+    width: 205px;
+    height: 21px;
+    left: 465px;
+    top: 297px;
+    color: #128D57;
+}
+#source h1{
+    position: absolute;
+    width: 380px;
+    height: 56px;
+    left: 462px;
+    top: 332px;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: black;
+    /* border: solid 1px red; */
+}
+#source #h1_2{
+    position: absolute;
+    width: 176px;
+    height: 56px;
+    left: 462px;
+    top: 394px;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: -0.01em;
+}
+
+/* 소개 */
+#overview{
+    width: 1200px;
+    height: 567px;
+    /* border: solid 1px red; */
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+#overview h3{
+    position: absolute;
+    /* border: solid 1px red; */
+    width: 300px;
+    height: 38px;
+    left: 100px;
+    top: 150px;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+}
+#overview p{
+    position: absolute;
+    width: 818px;
+    height: 170px;
+    left: 100px;
+    top: 226px;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #494949;
+    letter-spacing: 0.5px;
+    /* border: solid 1px red; */
+}
+#overview h1{
+    position: absolute;
+    width: 665px;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 200px;
+    font-weight: 800;
+    color: #ebebeb;
+    margin-top: 380px;
+    margin-left: 410px;
+}
+#overview img{
+    position: absolute;
+    top: 150px;
+    left: 405px;
+}
+
+/* 기획 */
+#plan{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+/* 페르소나 */
+#persona{
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    /* border: solid 1px red; */
+    z-index: 1;
+}
+
+
+
+#persona p{
+    position: absolute;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #494949;
+    font-weight: 400;
+    top: 150px;
+    left: 10%;
+}
+#persona h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 520;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#persona #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 520;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#intersect{
+    position: absolute;
+    top: 108px;
+    left: 24.5%;
+}
+#persona1_box{
+    position: absolute;
+    left: 230px;
+    top: 250px;
+    z-index: -1;
+}
+#persona1_person{
+    position: absolute;
+    left: 840px;
+    top: 255px;
+}
+#choi{
+    position: relative;
+    left: 100px;
+    top: -22px;
+}
+#choi h5{
+    position: absolute;
+    left: 300px;
+    top: 310px;
+    font-weight: 800;
+    font-size: 24px;
+}
+#choi h6{
+    position: absolute;
+    left: 370px;
+    top: 312px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #29CB4D;
+}
+#choi p{
+    position: absolute;
+    left: 300px;
+    top: 355px;
+    font-size: 16px;
+}
+#persona2_box{
+    position: absolute;
+    left: 150px;
+    top: 500px;
+    z-index: -1;
+}
+#persona2_person{
+    position: absolute;
+    left: 0;
+    top: 500px;
+}
+#yoon{
+    position: relative;
+    top: -22px;
+    left: 10%;
+}
+#yoon h5{
+    position: absolute;
+    left: 205px;
+    top: 560px;
+    font-weight: 800;
+    font-size: 24px;
+}
+#yoon h6{
+    position: absolute;
+    left: 275px;
+    top: 562px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #29CB4D;
+}
+#yoon p{
+    position: absolute;
+    left: 205px;
+    top: 605px;
+    font-size: 16px;
+}
+#persona3_box{
+    position: absolute;
+    left: 230px;
+    top: 750px;
+    z-index: -1;
+}
+#persona3_person{
+    position: absolute;
+    left: 840px;
+    top: 755px;
+}
+#park{
+    position: relative;
+    left: 100px;
+    top: -22px;
+}
+#park h5{
+    position: absolute;
+    left: 300px;
+    top: 810px;
+    font-weight: 800;
+    font-size: 24px;
+}
+#park h6{
+    position: absolute;
+    left: 370px;
+    top: 812px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #29CB4D;
+}
+#park p{
+    position: absolute;
+    left: 300px;
+    top: 855px;
+    font-size: 16px;
+}
+
+/* 정보구조도 */
+#map{
+    width: 1200px;
+    height: 1000px;
+    /* border: solid 1px red; */
+    margin: 0 auto;
+    position: relative;
+}
+#map p{
+    position: absolute;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #494949;
+    font-weight: 400;
+    top: 150px;
+    left: 10%;
+}
+#map h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#map #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#map #intersect{
+    position: absolute;
+    top: 108px;
+    left: 27.5%;
+}
+#map img{
+    left: 130px;
+    top: 270px;
+}
+
+/* 와이어프레임 */
+#wire{
+    width: 1200px;
+    height: 347px;
+    /* border: solid 1px red; */
+    margin: 0 auto;
+    position: relative;
+}
+#wire p{
+    position: absolute;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #494949;
+    font-weight: 400;
+    top: 150px;
+    left: 10%;
+}
+#wire h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#wire #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#wire #intersect{
+    position: absolute;
+    top: 108px;
+    left: 28%;
+}
+#wire2{
+    width: 1200px;
+    height: 825px;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+    position: relative;
+}
+#wire2 img{
+    position: absolute;
+    top: -277px;
+    left: 330px;
+    /* border: solid 1px red; */
+}
+#green_box{
+    /* width: 100%; */
+    height: 825px;
+    background-color: #3BD55D;;
+}
+
+/* ui 시스템 */
+#ui{
+    /* border: solid 1px red; */
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+}
+#ui p{
+    position: absolute;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #494949;
+    font-weight: 400;
+    top: 150px;
+    left: 10%;
+}
+#ui h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#ui #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#ui #intersect{
+    position: absolute;
+    top: 108px;
+    left: 26.8%;
+}
+#ui_logo{
+    position: relative;
+}
+#ui_logo h4{
+    position: absolute;
+    left: 10%;
+    margin-top: 140px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #606060;
+    font-weight: 600;
+}
+#logo1{
+    position: absolute;
+    width: 60px;
+    height: 65px;
+    /* border: solid 1px red; */
+    left: 10%;
+    top: 310px;
+}
+#logo2{
+    position: absolute;
+    width: 60px;
+    height: 65px;
+    /* border: solid 1px red; */
+    top: 310px;
+    left: 17%;
+}
+#logo3{
+    position: absolute;
+    width: 60px;
+    height: 65px;
+    /* border: solid 1px red; */
+    top: 290px;
+    left: 26%;
+}
+#logo4{
+    position: absolute;
+    width: 60px;
+    height: 65px;
+    /* border: solid 1px red; */
+    top: 290px;
+    left: 35%;
+}
+#logo5{
+    position: absolute;
+    top: 420px;
+    left: 10%;
+}
+#logo6{
+    position: absolute;
+    top: 420px;
+    left: 29%;
+}
+#color{
+    float: right;
+    position: relative;
+    right: 45%;
+    
+}
+#color h4{
+    top: 240px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #606060;
+}
+#color #main_box{
+    /* border: solid 1px red; */
+    width: 144px;
+    height: 154px;
+    background-color: #14b77c;
+    border-radius: 10px;
+    /* right: -180px; */
+    top: 300px;
+    position: absolute;
+}
+#color #main_box p{
+    position: absolute;
+    top: 120px;
+    color: #fbfbfb;
+    left: 10px;
+    font-weight: 800;
+}
+#color #sub_box{
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+#type h4{
+    position: absolute;
+    top: 540px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #606060;
+    left: 10%;
+}
+#type #h1_en{
+    position: absolute;
+    left: 10%;
+    margin-top: 600px;
+    color: #297754;
+    font-family: 'Roboto', sans-serif;
+    font-size: normal;
+    font-weight: 200;
+    font-size: 50px;
+}
+#type #h1_kr{
+    position: absolute;
+    left: 10%;
+    margin-top: 660px;
+    color: #297754;
+    font-family: 'Roboto', sans-serif;
+    font-size: normal;
+    font-weight: 10;
+    font-size: 50px;
+}
+#type2 h4{
+    float: left;
+    left: 55%;
+    margin-top: 510px;
+    color: #1c1c1c;
+    font-size: 31px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+#type2 h5{
+    float: right;
+    margin-right: 443px;
+    color: #1c1c1c;
+    font-size: 24px;
+    margin-top: 650px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+#type2 h6{
+    float: right;
+    margin-right: -85px;
+    color: #1c1c1c;
+    font-size: 21px;
+    margin-top: 685px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+#type3 #p_1{
+    float: left;
+    left: 70%;
+    margin-top: 470px;
+    color: #1c1c1c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+#type3 #p_2{
+    margin-left: 720px;
+    color: #1c1c1c;
+    font-size: 14px;
+    margin-top: 505px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+#type3 #p_3{
+    
+    margin-left: 720px;
+    color: #1c1c1c;
+    font-size: 12px;
+    margin-top: 540px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+#icons h4{
+    position: absolute;
+    margin-top: 655px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #606060;
+    left: 10%;
+}
+#icons_img{
+    left: 10%;
+    position: absolute;
+    top: 82%;
+    width: 340px;
+    height: 90px;
+    /* border: solid 1px red; */
+    display: inline;
+}
+#icons_img #img1{
+    left: 0;
+}
+#icons_img #img2{
+    left: 20%;
+}
+#icons_img #img3{
+    left: 40%;
+}
+#icons_img #img4{
+    left: 60%;
+}
+#icons_img #img5{
+    left: 80%;
+}
+#icons_img #img6{
+    left: 0;
+    margin-top: 60px;
+}
+#icons_img #img7{
+    left: 20%;
+    margin-top: 60px;
+}
+#icons_img #img8{
+    left: 40%;
+    margin-top: 60px;
+}
+#icons_img #img9{
+    left: 60%;
+    margin-top: 60px;
+}
+#icons_img #img10{
+    left: 80%;
+    margin-top: 60px;
+}
+#icons_img #img11{
+    left: 100%;
+    margin-top: 60px;
+}
+
+
+
+/* 비건테스트 */
+#test{
+    width: 1200px;
+    height: 1167px;
+    margin: 0 auto;
+    position: relative;
+    /* border: solid 1px red; */
+}
+#test p{
+    position: absolute;
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #494949;
+    font-weight: 400;
+    top: 150px;
+    left: 10%;
+    line-height: 25px;
+}
+#test h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#test #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#test #intersect{
+    position: absolute;
+    top: 108px;
+    left: 28.5%;
+}
+#test #ex{
+    position: absolute;
+    top: 130px;
+    left: -17%;
+}
+#test #arrow{
+    position: absolute;
+    top: 705px;
+    left: 16%;
+}
+#test #ment p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    top: 800px;
+    left: 36.5%;
+}
+#test #character{
+    position: absolute;
+    top: 905px;
+    left: 28%;
+}
+
+/* 홈화면 */
+#home{
+    width: 1200px;
+    height: 858px;
+    margin: 0 auto;
+    /* border: solid 1px; */
+    position: relative;
+}
+#home h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#home #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#home #intersect{
+    position: absolute;
+    top: 108px;
+    left: 17.3%;
+}
+#sub1{
+    position: absolute;
+    /* border: 1px red solid; */
+    height: 700px;
+    left: 10%;
+    margin-top: 120px;
+    width: 1198px;
+}
+
+#sub1 #intro{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 400px;
+    
+}
+#sub1 img{
+    position: absolute;
+    top: 50px;
+    left: -250px;
+}
+#sub1 #intro h2{
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    position: absolute;
+    margin-top: 75px;
+    width: 800px;
+    line-height: 130%;
+    color: #282828;
+}
+#sub1 #intro p{
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #494949;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 190px;
+    width: 800px;
+    line-height: 150%;
+}
+#sub1_icon{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -50px;
+}
+/* 커뮤니티 */
+#comun{
+    width: 1200px;
+    height: 858px;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+    position: relative;
+}
+#comun h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#comun #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#comun #intersect{
+    position: absolute;
+    top: 108px;
+    left: 23.7%;
+}
+#sub2{
+    position: absolute;
+    /* border: 1px red solid; */
+    height: 700px;
+    left: -10%;
+    margin-top: 120px;
+    width: 1198px;
+}
+
+#sub2 #intro{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+}
+#sub2 img{
+    position: absolute;
+    top: 50px;
+    left: 660px;
+}
+#sub2 #intro h2{
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    position: absolute;
+    margin-top: 75px;
+    width: 800px;
+    line-height: 130%;
+    text-align: right;
+    margin-left: -85px;
+}
+#sub2 #intro p{
+    font-family: 'NanumSquare', 'MalgunGothic', 'Dotum', 'Gulim', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #494949;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 190px;
+    width: 800px;
+    line-height: 150%;
+    text-align: right;
+    margin-left: -85px;
+}
+#sub2_icon{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -50px;
+}
+#diet{
+    width: 1200px;
+    height: 858px;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+    position: relative;
+}
+#diet h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#diet #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#diet #intersect{
+    position: absolute;
+    top: 108px;
+    left: 19.5%;
+}
+/* 밀키트 */
+#meal{
+    width: 1200px;
+    height: 858px;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+    position: relative;
+}
+#meal h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#meal #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#meal #intersect{
+    position: absolute;
+    top: 108px;
+    left: 21.5%;
+}
+#my{
+    width: 1200px;
+    height: 858px;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+    position: relative;
+}
+#my h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13.3%;
+    top: 100px;
+}
+#my #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#my #intersect{
+    position: absolute;
+    top: 108px;
+    left: 26%;
+}
+
+/* 비디오 */
+#video{
+    width: 1200px;
+    height: 1046px;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+    position: relative;
+}
+#video h4{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #282828;
+    left: 13%;
+    top: 100px;
+}
+#video #num{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #20BE44;
+    left: 10%;
+    top: 100px;
+}
+#video #intersect{
+    position: absolute;
+    top: 108px;
+    left: 21.5%;
+}
+#video #box{
+    width: 942px;
+    height: 531px;
+    position: absolute;
+    background-color: #14b77c;
+    top: 20%;
+    left: 10%;
+    margin-top: 20px;
+}
+
+#all{
+    width: 100%;
+    height: 697px;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+    /* position: relative; */
+    background-image: url(../img/Group\ 204.png);
+    /* background-repeat: no-repeat; */
+}
+#wrap{
+    width: 1920px;
+    margin: 0 auto;
+}
